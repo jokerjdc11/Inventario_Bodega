@@ -1,14 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Inventario de Bodega</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-</head>
-<body>
-    <h1>hola mundo para prueba con git</h1>
-</body>
-</html>
+       <html>
+       <head>
+       <link rel="stylesheet" href="complementos/css/index.css">
+              <title>Inventario Bodega</title>
+       </head>
+          <body>
+         <img src="#" alt="logo emergia">
+       <!--sesion anidada-->
+       <?php 
+       session_start();
+       ?>
+       <!--formulario de inicio de sesion-->
+       <div id="contenedor"></div>
+       <div class="form">
+       <form action="#" method="post" autocomplete="off"> 
+       <input type ="text" placeholder="Nombre de usuario" name="user" required=""><br>
+       <input type ="password" placeholder="Contraseña" name="pass" required=""><br>
+       <input  type ="submit"   value="Iniciar Sesion">
+       </form>
+       </div>
+       </body>
+       </html>
