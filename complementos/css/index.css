@@ -1,6 +1,6 @@
 div,#fondo{
     background: url(../img/fondo.jpg);
-    height: 100px;
+   /* height: 100px;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
 }
